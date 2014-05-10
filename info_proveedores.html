@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Retail 100 Hogar</title>
+<style>
+/* @import url(css/estilos.css) (min-width:801px);
+@import url(css/estilos-min.css) (min-width:480px); */
+body {background-image:url(img/bg_naranja.jpg); background-repeat:no-repeat; background-color:#f76518}
+</style>
+<link rel="stylesheet" href="css/colorbox.css" />
+<link rel="stylesheet" href="css/estilos.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.colorbox.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'gro border="0"up1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+        var $container = $('#cajas');
+        // initialize
+        $container.masonry({
+          columnWidth: 0,
+          itemSelector: '.box_prove'
+        });
+			});
+		</script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+</head>
+
+<body>
+<div id="top">
+<div id="container-index">
+
+<!-- //// MENU INDEX //// -->
+   <div class="logo_mini"><a href="http://www.retail100.com.ar/hogar" target="_blank"><img border="0" src="img/logo_header_r100.png"></a></div>
+   
+   <nav class="menu_container_gral">
+   <div class="logo"><a href="http://www.retail100.com.ar/hogar" target="_blank"><img border="0" src="img/logo_header_r100.png"></a></div>
+
+   <ul>
+   		<li class="menu_boton_gral"><a href="index.html"><img border="0" src="img/botones/boton_inicio.png"></a><br><span class="texto_menu_gral">HOME</span></li>
+	   <li class="menu_boton_gral"><a href="bienvenida.html"><img border="0" src="img/botones/boton_bienvenida.png"></a><br><span class="texto_menu_gral">BIENVENIDA</span></li>
+       <li class="menu_boton_gral"><a href="planos.html"><img border="0" src="img/botones/boton_planos_ubicacion.png"></a><br><span class="texto_menu_gral">PLANOS</span></li>
+       <li class="menu_boton_gral"><a href="agenda-d1.html"><img border="0" src="img/botones/boton_agenda.png"></a><br><span class="texto_menu_gral">AGENDA</span></li>
+       <li class="menu_boton_gral">
+         <div class="actual"><img border="0" src="img/botones/boton_info_proveedores.png"><br><span class="texto_menu_gral">PROVEEDORES</span></div></li>
+       <li class="menu_boton_gral"><a href="recomendados.html"><img border="0" src="img/botones/boton_recomendados.png"></a><br><span class="texto_menu_gral">RECOMENDADOS</span></li>
+   </ul>
+   </nav>
+<!-- //// FIN MENU INDEX //// -->     
+</div>
+</div>
+<section>
+<!-- //// CUERPO INDEX //// -->
+ <div id="cuerpo">
+      <div class="icono_infoproveedores"><img src="img/icono_proveedores.png"></div><div class="titulos_infoproveedores">Info Proveedores</div><div id="leyenda_proveedores">*Haga click en cada proveedor para ver más información</div>
+    <div style="height:30px;"></div>
+    <div style="clear:both;"></div>
+    <div id="cajas">
+    <div class="box_prove"><a href="empresas/air.html" class="iframe"><img src="img/empresas/01.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/espa.html" class="iframe"><img src="img/empresas/02.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/bangho.html" class="iframe"><img src="img/empresas/03.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/bgh.html" class="iframe"><img src="img/empresas/04.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/blisterpack.html" class="iframe"><img src="img/empresas/05.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/bluerest.html" class="iframe"><img src="img/empresas/06.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/centro.html" class="iframe"><img src="img/empresas/07.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/grupargentina.html" class="iframe"><img src="img/empresas/08.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/cuotaya.html" class="iframe"><img src="img/empresas/09.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/diera.html" class="iframe"><img src="img/empresas/10.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/dielfe.html" class="iframe"><img src="img/empresas/11.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/distecna.html" class="iframe"><img src="img/empresas/12.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/kld.html" class="iframe"><img src="img/empresas/13.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/exo.html" class="iframe"><img src="img/empresas/14.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/fagsistems.html" class="iframe"><img src="img/empresas/15.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/gafa.html" class="iframe"><img src="img/empresas/16.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/frontera.html" class="iframe"><img src="img/empresas/17.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/galicia.html" class="iframe"><img src="img/empresas/18.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/gani.html" class="iframe"><img src="img/empresas/19.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/gardenlife.html" class="iframe"><img src="img/empresas/20.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/gasei.html" class="iframe"><img src="img/empresas/21.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/gularo.html" class="iframe"><img src="img/empresas/22.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/lg.html" class="iframe"><img src="img/empresas/23.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/liliana.html" class="iframe"><img src="img/empresas/24.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/marmicoc.html" class="iframe"><img src="img/empresas/25.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/microbell.html" class="iframe"><img src="img/empresas/26.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/midea.html" class="iframe"><img src="img/empresas/27.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/newsan.html" class="iframe"><img src="img/empresas/28.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/omnidata.html" class="iframe"><img src="img/empresas/29.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/omron.html" class="iframe"><img src="img/empresas/30.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/grupoikana.html" class="iframe"><img src="img/empresas/31.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/pcbox.html" class="iframe"><img src="img/empresas/32.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/smeg.html" class="iframe"><img src="img/empresas/33.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/piero.html" class="iframe"><img src="img/empresas/34.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/siam.html" class="iframe"><img src="img/empresas/35.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/positivo.html" class="iframe"><img src="img/empresas/36.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/silfab.html" class="iframe"><img src="img/empresas/37.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/solutionbox.html" class="iframe"><img src="img/empresas/38.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/sony.html" class="iframe"><img src="img/empresas/39.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/nakan.html" class="iframe"><img src="img/empresas/40.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/tenacta.html" class="iframe"><img src="img/empresas/41.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/triadatec.html" class="iframe"><img src="img/empresas/42.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/brighttouch.html" class="iframe"><img src="img/empresas/43.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/unibike.html" class="iframe"><img src="img/empresas/44.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/petri.html" class="iframe"><img src="img/empresas/45.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/maxiking.html" class="iframe"><img src="img/empresas/46.jpg"></a></div>
+    <div class="box_prove"><a href="empresas/whirpool.html" class="iframe"><img src="img/empresas/47.jpg"></a></div>
+  </div>
+</div>
+ <!-- //// FIN CUERPO INDEX //// -->
+</section>
+<footer>
+<div class="item_footer">Sponsors</div>
+<div class="item_footer"><img src="img/footer_img1.png"></div>
+<div class="item_footer2"><img src="img/footer_img2.png"></div>
+<div class="item_footer2 footer_separador"><img src="img/footer_img3.png" style="margin-right:20px;"></div>
+<div class="item_footer">Organiza</div>
+<div class="item_footer2"><img src="img/footer_img4.png"></div>
+</footer>
+</body>
+</html>

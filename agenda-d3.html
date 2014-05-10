@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Retail 100 Hogar</title>
+<style>
+/* @import url(css/estilos.css) (min-width:801px);
+@import url(css/estilos-min.css) (min-width:480px); */
+body {background-image:url(img/bg_naranja.jpg); background-repeat:no-repeat; background-color:#f76518}
+</style>
+<link rel="stylesheet" href="css/colorbox.css" />
+<link rel="stylesheet" href="css/estilos.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+</head>
+
+<body>
+<div id="top">
+<div id="container-index">
+
+<!-- //// MENU INDEX //// -->
+   <div class="logo_mini"><a href="http://www.retail100.com.ar/hogar" target="_blank"><img border="0" src="img/logo_header_r100.png"></a></div>
+   <nav class="menu_container_gral">
+   <div class="logo"><a href="http://www.retail100.com.ar/hogar" target="_blank"><img border="0" src="img/logo_header_r100.png"></a></div>
+
+   <ul>
+   		<li class="menu_boton_gral"><a href="index.html"><img border="0" src="img/botones/boton_inicio.png"></a><br><span class="texto_menu_gral">HOME</span></li>
+	   <li class="menu_boton_gral"><a href="bienvenida.html"><img border="0" src="img/botones/boton_bienvenida.png"></a><br><span class="texto_menu_gral">BIENVENIDA</span></li>
+       <li class="menu_boton_gral"><a href="planos.html"><img border="0" src="img/botones/boton_planos_ubicacion.png"></a><br><span class="texto_menu_gral">PLANOS</span></li>
+       <li class="menu_boton_gral">
+         <div class="actual"><img border="0" src="img/botones/boton_agenda.png"><br><span class="texto_menu_gral">AGENDA</span></div></li>
+       <li class="menu_boton_gral"><a href="info_proveedores.html"><img border="0" src="img/botones/boton_info_proveedores.png"></a><br><span class="texto_menu_gral">PROVEEDORES</span></li>
+       <li class="menu_boton_gral"><a href="recomendados.html"><img border="0" src="img/botones/boton_recomendados.png"></a><br><span class="texto_menu_gral">RECOMENDADOS</span></li>
+   </ul>
+   </nav>
+<!-- //// FIN MENU INDEX //// -->     
+</div>
+</div>
+<section>
+<!-- //// CUERPO INDEX //// -->
+ <div id="cuerpo">
+      <div class="barra_agenda"><div class="icono_agenda"><img src="img/icono_agenda.png"></div><div class="bloque_agenda_fecha"><div id="fechas_agenda"><a href="agenda-d1.html" class="fechas_agenda">Lunes - 12 May</a></div><div id="fechas_agenda"><a href="agenda-d2.html" class="fechas_agenda">Martes - 13 May</a></div><div id="fechas_agenda"><span class="fecha_actual">Miércoles - 14 May</span></div><div id="fechas_agenda"><a href="agenda-d4.html" class="fechas_agenda">Jueves - 15 May</a></div></div></div><div style="clear:both;"></div>
+  <div id="box_agenda">
+      <div class="separador"></div><div id="agenda_bloque" class="agenda_fecha">7:30</div><div id="agenda_bloque" class="agenda_descripcion"><div class="titulo_descripcion">DESAYUNO</div>
+        <div>PB - Lobby - Hotel designado</div></div><div id="agenda_bloque" class="agenda_marca"></div><div style="clear:both;"></div>
+     <div class="separador"></div>
+     <div id="agenda_bloque" class="agenda_fecha">8:30</div><div id="agenda_bloque" class="agenda_descripcion"><div class="titulo_descripcion">REUNIONES GRUPALES</div>
+        <div>5to. Piso - Sala designada - Hotel Sheraton Salta</div></div>
+      <div id="agenda_bloque" class="agenda_marca"></div><div style="clear:both;"></div>
+      <div class="separador"></div>
+      <div id="agenda_bloque" class="agenda_fecha">12:00</div><div id="agenda_bloque" class="agenda_descripcion"><div class="titulo_descripcion" style="float:left;">WORKSHOP TRABAJO EN EQUIPO 
+</div>
+        <div style="clear:both;">1er. Piso - Ballroom - Hotel Sheraton Salta <a href="workshop.html" class="ver_mas iframe">VER MÁS</a></div></div><div id="agenda_bloque" class="agenda_marca"></div><div style="clear:both;"></div>
+      <div class="separador"></div>
+      <div id="agenda_bloque" class="agenda_fecha">13:00</div><div id="agenda_bloque" class="agenda_descripcion"><div class="titulo_descripcion">ALMUERZO</div>
+        <div>PB - Lobby - Hotel Sheraton Salta</div></div><div id="agenda_bloque" class="agenda_marca"><center><img src="img/logos/gardenlife.png" width="120" style="padding-top:7px;"></center></div><div style="clear:both;"></div>
+      <div class="separador"></div>
+      <div id="agenda_bloque" class="agenda_fecha">15:00</div><div id="agenda_bloque" class="agenda_descripcion"><div class="titulo_descripcion">REUNIONES PRIVADAS</div>
+        <div>1er. Piso - Güemes / 330 - Hotel Sheraton Salta</div></div><div id="agenda_bloque" class="agenda_marca"><div style="float:left; padding-top:20px; width:60px;">Lobby Bar:</div><div style="text-align:left; padding-bottom:8px;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/logos/blister_pack.png" width="107" style="padding-top:7px;"></div></div><div style="clear:both;"></div>
+        <div class="separador"></div>
+      <div id="agenda_bloque" class="agenda_fecha">20:45</div>
+      <div id="agenda_bloque" class="agenda_descripcion"><div class="titulo_descripcion">SALIDA PARA CENA CIERRE</div>
+        <div>PB - Lobby - Hotel Sheraton Salta</div></div><div id="agenda_bloque" class="agenda_marca"></div><div style="clear:both;"></div>
+        <div class="separador"></div>
+      <div id="agenda_bloque" class="agenda_fecha">21:00</div>
+    <div id="agenda_bloque" class="agenda_descripcion"><div class="titulo_descripcion">CENA DE CIERRE</div>
+        <div>Hotel Alejandro 1º - Salón Joaquín Castellanos</div></div><div id="agenda_bloque" class="agenda_marca"><center><img src="img/logos/newsan.png" width="120px" style="padding-top:10px;"></center></div><div style="clear:both;"></div>
+        <div class="separador"></div>
+      <div id="agenda_bloque" class="agenda_fecha">23:00</div>
+      <div id="agenda_bloque" class="agenda_descripcion"><div class="titulo_descripcion">SHOW DE CIERRE</div>
+        <div>Show en vivo - <a class='ver_mas iframe' href="show_cierre_humor.html">VER MÁS</a></div></div><div id="agenda_bloque" class="agenda_marca"><center><img src="img/logos/newsan.png" width="120px" style="padding-top:10px;"></center></div><div style="clear:both;"></div>
+        
+  </div>
+ <!-- //// FIN CUERPO INDEX //// -->
+</section>
+<footer>
+<div class="item_footer">Sponsors</div>
+<div class="item_footer"><img src="img/footer_img1.png"></div>
+<div class="item_footer2"><img src="img/footer_img2.png"></div>
+<div class="item_footer2 footer_separador"><img src="img/footer_img3.png" style="margin-right:20px;"></div>
+<div class="item_footer">Organiza</div>
+<div class="item_footer2"><img src="img/footer_img4.png"></div>
+</footer>
+</body>
+</html>

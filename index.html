@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Retail 100 Hogar</title>
+	<style>
+/* @import url(css/estilos.css) (min-width:801px);
+@import url(css/estilos-min.css) (min-width:480px); */
+body {background-image:url(img/bg_index.jpg); background-repeat:no-repeat; background-position:center top; background-color:#000; }
+</style>
+<link rel="stylesheet" href="css/colorbox.css" type="text/css"/>
+<link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script>
+$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+</script>
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+</head>
+
+<body>
+	<div class="top1">
+		<div class="top2">
+			<div id="container-index">
+
+				<!-- //// MENU INDEX //// -->
+				<nav class="menu_container_index">
+					<!--<div class="menu_boton"><a href="index.html"><img src="img/botones/boton_inicio.png"></a><br><span class="texto_menu">HOME</span></div> -->
+					<ul>
+						<li class="menu_boton">
+							<a href="bienvenida.html">
+								<img src="img/botones/boton_bienvenida.png" border="0">
+							</a><br>
+							<span class="texto_menu">BIENVENIDA</span>
+						</li>
+						<li class="menu_boton">
+							<a href="planos.html">
+								<img src="img/botones/boton_planos_ubicacion.png" border="0">
+							</a><br>
+							<span class="texto_menu">PLANOS</span>
+						</li>
+						<li class="menu_boton">
+							<a href="agenda-d1.html">
+								<img src="img/botones/boton_agenda.png" border="0">
+							</a><br>
+							<span class="texto_menu">AGENDA</span>
+						</li>
+						<li class="menu_boton">
+							<a href="info_proveedores.html">
+								<img src="img/botones/boton_info_proveedores.png" border="0">
+							</a><br>
+							<span class="texto_menu">PROVEEDORES</span>
+						</li>
+						<li class="menu_boton">
+							<a href="recomendados.html">
+								<img src="img/botones/boton_recomendados.png" border="0"></a><br>
+								<span class="texto_menu">RECOMENDADOS</span>
+							</li>
+						</ul>
+					</nav>
+					<!-- //// FIN MENU INDEX //// -->     
+				</div>
+				<section class="mb">
+					<!-- //// CUERPO INDEX //// -->
+					<div class="logo_index"><img src="img/logo_r100_central_inicio.png"></div>
+					<div style="max-width:1024px; margin:0 auto; text-align:center;">2014 · 12 al 15 de Mayo · Sheraton Hotel Salta <img src="img/5estrellas.png" width="63" height="11" style="margin-left:30px;"><br><br></div>
+					<!-- //// FIN CUERPO INDEX //// -->
+				</section>
+				<div class="footer_index fip">
+					<div class="item_footer_index footer_separador">Sponsors</div>
+					<div class="item_footer_index2"><img src="img/footer_img1.png"></div>
+					<div class="item_footer_index"><img src="img/footer_img2.png"></div>
+					<div class="item_footer_index footer_separador"><img src="img/footer_img3.png"></div>
+					<div class="item_footer_index">Organiza</div>
+					<div class="item_footer_index"><img src="img/footer_img4.png"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>

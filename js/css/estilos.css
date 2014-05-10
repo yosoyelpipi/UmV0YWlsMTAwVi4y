@@ -1,0 +1,1006 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+   font-family: "opensans";
+   font-style: normal;
+   font-weight: normal;
+   src: url(http://proyectogalatea.com.ar/carpeta/fonts/opensans.ttf);
+}
+body {
+	margin:0;
+	font-family:opensans;
+	color:#FFF;
+	}
+footer {
+background-color:#FFF;
+width:100%;
+text-align:center;
+vertical-align:top;
+margin-top:30px;
+padding-top:10px;
+padding-bottom:10px;
+margin-bottom:20px;
+display:inline-block;
+	}
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.item_footer img {
+	margin-left:20px;
+	}
+#container {
+	padding:20px;
+}
+
+.menu_container_index {
+	color:#FFF;
+max-width:1024px;
+text-align:center;
+vertical-align:top;
+padding-top:10px;
+	}    
+.menu_boton {
+display:inline-block;
+vertical-align:top;
+padding-top:20px;
+}	
+.menu_boton_gral {
+display:inline-block;
+vertical-align:top;
+padding-top:10px;
+}
+.logo_index {
+	margin-top:30px;
+	margin-bottom:30px;
+	width:100%;
+	text-align:center;
+	}
+	
+#container-index {
+	
+ background-color:#000;
+ max-width:1024px;
+ margin:0 auto;
+}
+#top { 
+width:100%;
+display:inline-block;
+text-align:center;
+background-color:#000;
+}
+
+#container-gral {
+ background-color:#000;
+ max-width:1024px;
+ margin:0 auto;
+}
+.menu_boton img  {
+ 
+   transition-duration:.2s;
+} 
+.menu_boton_gral img  {
+ 
+   transition-duration:.2s;
+} 
+#cuerpo {
+		color:#FFF;
+		padding:20px;
+max-width:984px;
+margin:0 auto;
+vertical-align:top;
+padding-top:30px;
+padding-bottom:30px;
+	}
+#video_bienvenida {
+	max-width:450px;
+	min-width:150px;
+	height:250px;
+	margin:0 auto;
+	border-color:#ccc;
+	background-color:#ebebeb;
+	border-style:dotted;
+	border-width:1px;
+	text-align:center;
+	margin-top:30px;
+	}
+
+.texto_negro_sm {
+	color:#000;
+	font-size:13px;
+	}
+@media screen and (min-width: 120px) and (max-width: 480px) {
+.logo_mini {
+	padding-top:20px;
+	text-align:center;
+	}
+.logo_mini img {
+width:130px;
+	}
+.logo {
+	display:none;
+	}
+.footer_index {
+background-color:#FFF;
+width:100%;
+text-align:center;
+vertical-align:top;
+padding-top:10px;
+border-bottom-color:#000;
+border-bottom-style:solid;
+border-bottom-width:20px;
+padding-bottom:10px;
+/* margin-bottom:2px; */
+display:inline-block;
+	} 
+.mb {
+	margin-bottom:0px;
+	}
+.fip {
+}
+.item_footer, .item_footer2, .item_footer_index, .item_footer_index2 {
+display:inline-block;
+vertical-align:middle;
+color:#000;
+font-size:10px;
+}
+.item_footer img {
+	width:80px;
+	}
+.item_footer2 img {
+	width:30px;
+	}
+.item_footer_index img {
+	width:30px;
+	}
+.item_footer_index2 img {
+	width:70px;
+	}
+.footer_separador {
+	margin-right:10px;
+}
+.menu_container_gral {
+	background-color:#000;
+	color:#FFF;
+text-align:center;
+padding-top:5px;
+padding-bottom:20px;
+	}
+.menu_boton img {
+width: 36px;
+padding-right:20px;
+}
+.menu_boton_gral img {
+width: 36px;
+padding-right:5px;
+padding-left:5px;
+}
+.texto_menu {
+	 display:none;
+	}
+.texto_menu_gral {
+display:none;
+	}
+.actual {
+	background-image:url(../img/botonera_movil_act.png);
+	width:36px;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	clear:both;
+	padding-right:10px;
+}
+.logo_index img {
+	width:75%;
+}
+/* // BIENVENIDA // */
+.icono_bienvenida {
+	float:left;
+	margin-right:10px;
+	margin-left:25px;
+	transition-duration:.2s;
+	 }
+.icono_bienvenida img {
+	width:15px;
+	transition-duration:.2s;
+	 }
+.titulos {
+	margin-left:50px;
+	font-size:20px;
+	transition-duration:.2s;
+	}
+.staff-item {
+	margin-left:30px;
+	color:#FFF;
+	font-size:20px;
+	}
+.staff-col2 {
+margin-left:30px; 
+color:#000;
+font-size:16px;
+}
+/* // FIN BIENVENIDA // */
+/* // AGENDA // */
+.icono_agenda {
+	margin-left:40px;
+	float: left;
+	margin-right:20px;
+	}
+.icono_agenda img {
+	width:35px;
+	transition-duration:.2s;
+	}
+.fechas_agenda {
+	color:#FFF;
+	font-size:20px;
+	text-decoration:none;
+	padding-bottom:30px;
+	}
+.bloque_agenda_fecha {
+	float:left;
+	display:inline-block;
+	}
+.fecha_actual {
+	color:#000;
+	font-size:20px;
+	text-decoration:underline;
+	}
+	#box_agenda {
+	padding-top:30px;
+	padding-bottom:20px;
+	margin: 0 auto;
+	width:100%;
+/*	background-color:#06C; */
+	}	
+#agenda_bloque {
+	padding:5px;
+	margin:2px;
+	width:95%;
+	}
+.agenda_vacio {
+	width:85px;
+	background-color:transparent;
+	}
+.agenda_fecha {
+	width:85px;
+	background-color:#000;
+	color:#F7941E;
+	text-align:left;
+	font-size:30px;
+	}
+#agenda_bloque_b {
+	display:none;
+	}
+.separador {
+	padding:5px;
+	padding-top:25px;
+	width:90%;
+	background-color:transparent;
+	}
+.agenda_descripcion {
+	width:350px;
+	background-color:#FFF;
+	color:#000;
+	font-size:12px;
+	}
+.titulo_descripcion {
+	font-size:20px;
+	font-weight:bold;
+	}
+.agenda_marca {
+	width:250px;
+	background-color:#FFF;
+	color:#000;
+	font-size:12px;
+	}
+.ver_mas {
+	color:#F00;
+	font-size:14px;
+	}
+/* // FIN AGENDA // */
+/* // PLANTILLA CONFERENCIA // */
+#conferencia_box {
+	color:#000;
+	background-color:#FFF;
+	margin: 0 auto;
+	max-width:1024px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.centro {
+	text-align:center;
+}
+.nota {
+	width:90%;
+	margin: 0 auto;
+	}
+.text_size_1 {
+	font-size:18px;
+}
+.text_size_2 {
+	font-size:24px; 
+}
+.text_size_3 {
+	font-size:12px;
+}
+#foto_central {
+	max-width:1024px;
+	margin: 0 auto;
+	background-color:#FFF;
+	}
+#box_cv {
+	margin: 0 auto;
+	width:90%;
+	}
+.foto_gonzalo {
+	margin: 0 auto;
+	width:90%;
+	padding-top:5px;
+	background-color:#f5f5f5;
+	text-align:center;
+	}
+.hr {
+	margin: 0 auto;
+	}
+/* // PLANTILLA SHOW CIERRE // */
+#show_box {
+	color:#000;
+	background-color:#FFF;
+	margin: 0 auto;
+	width:90%;
+	margin: 0 auto;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+#box_texto_show {
+	width:90%;
+	margin: 0 auto;
+	padding-bottom:40px;
+	}	
+.res_show img {
+	width:70px;
+	}
+/* // FIN PLANTILLA SHOW CIERRE // */
+/* // INFO PROVEEDORES // */
+.icono_infoproveedores {
+	float:left;
+	margin-right:5px;
+	margin-left:10px;
+	transition-duration:.2s;
+	 }
+.icono_infoproveedores img {
+	width:12px;
+	transition-duration:.2s;
+	 }
+#leyenda_proveedores {
+	margin-left:30px;
+	font-size:10px;
+	}
+#box_prove {
+	width:85%;
+	text-align:center;
+	margin 0 auto;
+	margin-bottom:5px;
+	background-color:#FFF;
+	color:#000;
+	border-color:#F60;
+	border-style:solid;
+	border-width:1px;
+	padding:20px;
+	}
+#box_prove img {
+	width:138px;
+	}
+.titulos_infoproveedores {
+	font-size:18px;
+	transition-duration:.2s;
+	}
+/* // FIN INFO PROVEEDORES // */
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+.logo_mini {
+	padding-top:20px;
+	text-align:center;
+	}
+.logo_mini img {
+width:130px;
+	}
+.logo {
+	display:none;
+	}
+.menu_container_gral {
+	background-color:#000;
+	color:#FFF;
+text-align:center;
+padding-top:5px;
+padding-bottom:20px;
+	}
+.menu_boton img {
+width: 54px;
+padding-right:20px;
+}
+.texto_menu {
+	 display:none;
+	}
+.menu_boton_gral img {
+width: 54px;
+padding-right:10px;
+padding-left:10px;
+}
+.texto_menu_gral {
+display:none;
+	}
+.actual {
+	background-image:url(../img/botonera_movil_act2.png);
+	width:54px;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	clear:both;
+	padding-right:20px;
+}
+.top1 {
+	width:100%; 
+	position:absolute; 
+	top:0; 
+	height:100%; 
+	min-height:100%; 
+	left:0;
+	}
+.top2 {
+	height:auto; 
+	min-height:auto;
+}
+.mb {
+	margin-bottom:80px;
+	}	  
+.fip {
+	position:fixed; 
+	bottom:0
+}
+.footer_index {
+background-color:#FFF;
+width:100%;
+text-align:center;
+vertical-align:top;
+padding-top:10px;
+padding-bottom:10px;
+display:inline-block;
+border-bottom-color:#000;
+border-bottom-style:solid;
+border-bottom-width:20px;
+	}
+.item_footer, .item_footer2, .item_footer_index, .item_footer_index2 {
+display:inline-block;
+vertical-align:middle;
+color:#000;
+font-size:10px;
+}
+.item_footer img {
+	width:100px;
+	}
+.item_footer2 img {
+	width:50px;
+	}
+.item_footer_index img {
+	width:50px;
+	}
+.item_footer_index2 img {
+	width:80px;
+	}
+.footer_separador {margin-right:40px;}
+/* // BIENVENIDA // */
+.icono_bienvenida {
+	float:left;
+	margin-right:10px;
+	margin-left:25px;
+	transition-duration:.2s;
+	 }
+.icono_bienvenida img {
+	width:15px;
+	transition-duration:.2s;
+	 }
+.titulos {
+	font-size:20px;
+	transition-duration:.2s;
+	}
+.staff-item {
+	margin-left:30px;
+	color:#FFF;
+	font-size:20px;
+	}
+.staff-col2 {
+margin-left:30px; 
+color:#000;
+font-size:16px;
+}
+/* // FIN BIENVENIDA // */
+/* // AGENDA // */
+.icono_agenda {
+	margin-left:40px;
+	float: left;
+	margin-right:20px;
+	}
+.icono_agenda img {
+	width:35px;
+	transition-duration:.2s;
+	}
+.fechas_agenda {
+	color:#FFF;
+	font-size:20px;
+	text-decoration:none;
+	padding-bottom:30px;
+	}
+.bloque_agenda_fecha {
+	float:left;
+	display:inline-block;
+	}
+.fecha_actual {
+	color:#000;
+	font-size:20px;
+	text-decoration:underline;
+	}
+	#box_agenda {
+	padding-top:30px;
+	padding-bottom:20px;
+	margin: 0 auto;
+	width:100%;
+/*	background-color:#06C; */
+	}	
+#agenda_bloque {
+	padding:5px;
+	margin:2px;
+	width:95%;
+	}
+.agenda_vacio {
+	width:85px;
+	background-color:transparent;
+	}
+.agenda_fecha {
+	width:85px;
+	background-color:#000;
+	color:#F7941E;
+	text-align:left;
+	font-size:30px;
+	}
+#agenda_bloque_b {
+	display:none;
+	}
+.separador {
+	padding:5px;
+	padding-top:25px;
+	width:90%;
+	background-color:transparent;
+	}
+.agenda_descripcion {
+	width:350px;
+	background-color:#FFF;
+	color:#000;
+	font-size:12px;
+	}
+.titulo_descripcion {
+	font-size:20px;
+	font-weight:bold;
+	}
+.agenda_marca {
+	width:250px;
+	background-color:#FFF;
+	color:#000;
+	font-size:12px;
+	}
+.ver_mas {
+	color:#F00;
+	font-size:14px;
+	}
+/* // FIN AGENDA // */
+/* // PLANTILLA CONFERENCIA // */
+#conferencia_box {
+	color:#000;
+	background-color:#FFF;
+	margin: 0 auto;
+	max-width:1024px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.centro {
+	text-align:center;
+}
+.nota {
+	width:90%;
+	margin: 0 auto;
+	}
+.text_size_1 {
+	font-size:18px;
+}
+.text_size_2 {
+	font-size:24px; 
+}
+.text_size_3 {
+	font-size:12px;
+}
+#foto_central {
+	max-width:1024px;
+	margin: 0 auto;
+	background-color:#FFF;
+	}
+#box_cv {
+	margin: 0 auto;
+	width:90%;
+	}
+.foto_gonzalo {
+	margin: 0 auto;
+	width:90%;
+	padding-top:5px;
+	background-color:#f5f5f5;
+	text-align:center;
+	}
+.hr {
+	margin: 0 auto;
+	}
+/* // PLANTILLA SHOW CIERRE // */
+#show_box {
+	color:#000;
+	background-color:#FFF;
+	margin: 0 auto;
+	width:90%;
+	margin: 0 auto;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+#box_texto_show {
+	width:90%;
+	margin: 0 auto;
+	padding-bottom:40px;
+	}	
+.res_show img {
+	width:70px;
+	}
+/* // FIN PLANTILLA SHOW CIERRE // */
+/* // INFO PROVEEDORES // */
+.icono_infoproveedores {
+	float:left;
+	margin-right:10px;
+	margin-left:25px;
+	transition-duration:.2s;
+	 }
+.icono_infoproveedores img {
+	width:15px;
+	transition-duration:.2s;
+	 }
+#leyenda_proveedores {
+	font-size:12px;
+	}
+#box_prove {
+	width:23%;
+	text-align:center;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	background-color:#FFF;
+	color:#000;
+	border-color:#F60;
+	border-style:solid;
+	border-width:1px;
+	padding:20px;
+	}
+#box_prove img {
+	width:130px;
+	}
+.titulos_infoproveedores {
+	font-size:22px;
+	transition-duration:.2s;
+	}
+/* // FIN INFO PROVEEDORES // */
+}
+@media screen and (min-width: 801px) {
+.logo_mini {
+	display:none;
+	}
+.logo {
+	margin-top:-5px;
+float:left;
+margin-right:30px;
+transition-duration:.2s;
+	}
+.logo img {
+	margin-left:40px;
+width:90px;
+	}
+.menu_container_gral {
+	background-color:#000;
+	color:#FFF;
+	margin-left:50px;
+text-align:center;
+vertical-align:top;
+padding-top:10px;
+	}
+.menu_boton img {
+width: 64px;
+padding-right:20px;
+}
+.texto_menu {
+	 font-family:opensans;
+ font-size:10px;
+ transition-duration:.2s;
+ padding-right:20px;
+	}
+.actual {
+	background-image:url(../img/bg_botonera_actual.png);
+	 background-position:bottom;
+	}
+.menu_boton_gral img {
+margin-top:-10px;
+text-align:center;
+width: 54px;
+padding-left:15px;
+padding-right:15px;
+}
+.texto_menu_gral {
+	 font-family:opensans;
+	 
+ font-size:10px;
+ transition-duration:.2s;
+ text-align:center;
+ padding-left:5px;
+ padding-right:5px;
+	}
+
+.footer_index {
+background-color:#FFF;
+width:100%;
+text-align:center;
+vertical-align:top;
+padding-top:10px;
+border-bottom-color:#000;
+border-bottom-style:solid;
+border-bottom-width:20px;
+padding-bottom:10px;
+/* margin-bottom:2px; */
+display:inline-block;
+	} 
+	
+.mb {
+	margin-bottom:0px;
+	}
+.fip {
+}
+.item_footer, .item_footer2 {
+display:inline-block;
+vertical-align:middle;
+color:#000;
+font-size:10px;
+}
+
+.item_footer img {
+	width:100px;
+	}
+.item_footer2 img {
+	width:50px;
+	}
+.footer_separador {margin-right:60px;}
+.item_footer, .item_footer2, .item_footer_index, .item_footer_index2 {
+display:inline-block;
+vertical-align:middle;
+color:#000;
+font-size:10px;
+}
+.item_footer img {
+	width:100px;
+	}
+.item_footer2 img {
+	width:50px;
+	}
+.item_footer_index img {
+	width:50px;
+	}
+.item_footer_index2 img {
+	width:80px;
+	}
+/* // BIENVENIDA // */
+.icono_bienvenida {
+	float:left;
+	margin-right:10px;
+	margin-left:95px;
+	transition-duration:.2s;
+	 }
+.icono_bienvenida img {
+	width:20px;
+	transition-duration:.2s;
+	 }
+.titulos {
+	font-size:24px;
+	transition-duration:.2s;
+	}
+.staff-item {
+	float:left; 
+	margin-left:110px;
+	color:#FFF;
+	font-size:24px;
+	}
+.staff-col2 {
+float:left; 
+margin-left:30px; 
+margin-right:30px;
+color:#000;
+font-size:16px;
+}
+/* // FIN BIENVENIDA // */
+/* // AGENDA // */
+.icono_agenda {
+	margin-left:95px;
+	margin-right:20px;
+	float:left;
+	}
+.icono_agenda img {
+	width:30px;
+	transition-duration:.2s;
+	}
+#fechas_agenda {
+	float:left; 
+	margin-right:25px;
+	}
+.fechas_agenda {
+	color:#FFF;
+	font-size:20px;
+	text-decoration:none;
+	}
+.fecha_actual {
+	float:left; 
+	color:#000;
+	font-size:20px;
+	text-decoration:underline;
+	}
+#box_agenda {
+	padding-top:30px;
+	padding-bottom:20px;
+	margin: 0 auto;
+	width:730px;
+/*	background-color:#06C; */
+	}	
+#agenda_bloque {
+	float:left;
+	padding:5px;
+	height:50px;
+	margin:2px;
+	}
+#agenda_bloque_b {
+	float:left;
+	padding:5px;
+	height:50px;
+	margin:2px;
+	}
+.separador {
+	display:none;
+	}
+.agenda_vacio {
+	width:85px;
+	background-color:transparent;
+	}
+.agenda_fecha {
+	width:85px;
+	background-color:#000;
+	color:#F7941E;
+	text-align:right;
+	font-size:30px;
+	}
+.agenda_descripcion {
+	width:350px;
+	background-color:#FFF;
+	color:#000;
+	font-size:12px;
+	}
+.titulo_descripcion {
+	font-size:20px;
+	font-weight:bold;
+	}
+.agenda_marca {
+	width:250px;
+	background-color:#FFF;
+	color:#000;
+	font-size:12px;
+	}
+.ver_mas {
+	color:#F00;
+	font-size:14px;
+	}
+/* // FIN AGENDA // */
+/* // PLANTILLA CONFERENCIA // */
+#conferencia_box {
+	color:#000;
+	background-color:#FFF;
+	margin: 0 auto;
+	max-width:1024px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.centro {
+	text-align:center;
+}
+.nota {
+	width:90%;
+	margin: 0 auto;
+	}
+.text_size_1 {
+	font-size:24px;
+}
+.text_size_2 {
+	font-size:40px;
+}
+.text_size_3 {
+	font-size:18px;
+}
+#foto_central {
+	max-width:1024px;
+	margin: 0 auto;
+	background-color:#FFF;
+	}
+#box_cv {
+	margin-left:180px; 
+	margin-top:-8px; 
+	margin-bottom:40px;
+	}	
+.foto_gonzalo {
+	padding-left:15px;
+	padding-bottom:10px;
+	float:left; 
+	}
+.hr {
+	margin-right:30px;
+	}
+/* // FIN PLANTILLA CONFERENCIA // */
+/* // PLANTILLA SHOW CIERRE // */
+#show_box {
+	color:#000;
+	background-color:#FFF;
+	margin: 0 auto;
+	max-width:1024px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+#box_texto_show {
+	margin-left:180px; 
+	margin-top:-8px; 
+	margin-bottom:40px;
+	}	
+.res_show img {
+	width:143px;
+	}
+/* // FIN PLANTILLA SHOW CIERRE // */
+/* // INFO PROVEEDORES // */
+.icono_infoproveedores {
+	float:left;
+	margin-right:10px;
+	margin-left:95px;
+	transition-duration:.2s;
+	 }
+.icono_infoproveedores img {
+	width:15px;
+	transition-duration:.2s;
+	 }
+.leyenda_proveedores {
+	font-size:12px;
+	}
+#box_prove {
+	text-align:center;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	background-color:#FFF;
+	color:#000;
+	border-color:#F60;
+	border-style:solid;
+	border-width:1px;
+	padding:5px;
+	}
+.titulos_infoproveedores {
+	font-size:24px;
+	transition-duration:.2s;
+	}
+#box_prove img {
+	width:142px;
+	}
+/* // FIN INFO PROVEEDORES // */
+}	
