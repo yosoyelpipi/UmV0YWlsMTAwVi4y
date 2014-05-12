@@ -20,10 +20,6 @@ Para grandes compradores especialmente seleccionados.
 <preference name="android-targetSdkVersion" value="19" />
 <preference name="android-maxSdkVersion" value="19" />
 <preference name="permissions" value="none" />
-<uses-permission android:name="android.permission.INTERNET" /> 
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 
 <author href="www.itris.com.ar" email="lcondori@itris.com.ar">
