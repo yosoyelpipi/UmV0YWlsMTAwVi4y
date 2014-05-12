@@ -16,12 +16,12 @@ Para grandes compradores especialmente seleccionados.
 <gap:splash src="img/splashok.png" />
 <preference name="splash-screen-duration" value="5000" />
 <preference name="exit-on-suspend" value="true" />
-<preference name="android-minSdkVersion" value="16" />
+<preference name="android-minSdkVersion" value="5" />
 <preference name="android-targetSdkVersion" value="16" />
 
 
 
-<author href="http://www.retail100.com.ar/hogar/index.html" email="info@focusmedia.com.ar">
+<author href="www.itris.com.ar" email="lcondori@itris.com.ar">
 Desarrollador| tw: @LeoCondori
 </author>
 
