@@ -17,6 +17,7 @@ Para grandes compradores especialmente seleccionados.
 <preference name="splash-screen-duration" value="5000" />
 <preference name="exit-on-suspend" value="true" />
 <preference name="android-minSdkVersion" value="9" />
+<preference name="android-targetSdkVersion" value="16" />
 
 
 
